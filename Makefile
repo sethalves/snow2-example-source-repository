@@ -11,6 +11,9 @@ package:
 upload: package
 	snow2 upload
 
+check:
+	snow2 -r . check -v
+
 clean:
 	rm -f *~ */*~ */*/*~ */*/*/*~
 	rm -f *.tgz
