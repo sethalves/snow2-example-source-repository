@@ -1,0 +1,28 @@
+(package
+ (name (bar))
+ (url "bar.tgz")
+ (library
+  (path "gibber/bar.sld")
+  (version "1.0")
+  (homepage "https://github.com/sethalves")
+  (maintainers "Seth Alves <seth@hungry.com>")
+  (authors "Seth Alves <seth@hungry.com>")
+  (description "an example library")
+  (license BSD-style))
+ (library
+  (path "gibber/baz.sld")
+  (version "1.0")
+  (homepage "https://github.com/sethalves")
+  (maintainers "Seth Alves <seth@hungry.com>")
+  (authors "Seth Alves <seth@hungry.com>")
+  (description "an example library")
+  (license BSD-style))
+ (library
+  (path "example-tests/bar-baz-tests.sld")
+  (version "1.0")
+  (use-for test)
+  (homepage "https://github.com/sethalves")
+  (maintainers "Seth Alves <seth@hungry.com>")
+  (authors "Seth Alves <seth@hungry.com>")
+  (description "tests for an example package")
+  (license BSD-style)))
