@@ -1,3 +1,3 @@
 (repository
-  (url "http://.../index.scm")
+  (url ".")
   (name "example repository"))
